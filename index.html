@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Magasin</title>
+
+<!--Stylesheets-->
+    <link rel="stylesheet" href="headerstyle.css">
+    <link rel="stylesheet" href="mainbody.css">
+    <link rel="stylesheet" href="footerstyle.css">
+<!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<!--Dropdown-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <header>  
+            <a href="index.html">
+            <img class="logo" src="../Online Magasin/logokopier.png" alt="logo">
+            </a>
+
+        <nav class="navbar">
+            <a href="#">Forside</a>
+            <a href="#" class="nyheder">nyheder</a>
+            <a href="#">guide</a>
+            
+            <div class="dropdown">
+
+            <button class="dropbtn">vælg by 
+                <i class="fa fa-caret-down"></i>
+            </button>
+
+            <div class="dropdown-content">
+                <a href="#">Aarhus</a>
+                <a href="#">København</a>
+                <a href="#">Odense</a>
+                <a href="#">Ålborg</a>
+            </div>
+            </div>
+
+            <a href="#">om</a>
+        </nav>
+    </header>
+
+    <main class="frontpage">
+
+        <!--Forside billede på tekst-->
+        <section class="back-image"></section>
+
+        <div class="back-text">
+            <h2> Velkommen til <br> <br> </h2>
+                
+            <h1><span id="spanfoerste">STUDENT</span> <span id="spananden">GUIDE</span></h1>
+            
+            <h3 id="tredjetekst">
+                Vi vil hjælpe dig med at udforske og nyde livet <br> bag bøgerne og lektierne. 
+            </h3>
+        </div>
+
+        <!--Nyeste historier-->
+
+    <section class="flexbox-et">
+            
+                <section class="headingbox">
+                    <h1> <span id="nyeste">Nyeste </span> 
+                        <span id="historier">historier</span>
+                    </h1>
+                </section>
+
+        
+
+        <!--Artiklerne (cardscontainer)-->
+
+        <section class="cardscontainer">
+
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="#" alt="#">
+                    <h1>Hvad skal man vælge? Her er månedens favorit</h1>
+                    <hr>
+                    <h2>Lorem Ipsum</h2>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="#" alt="#">
+                    <h1>Dagen derpå: Den perfekte guide til tømmermænd</h1>
+                    <hr>
+                    <h2>Lorem Ipsum</h2>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+           
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="#" alt="#">
+                    <h1>Her er alle 10/10 rated spisesteder indtil videre</h1>
+                    <hr>
+                    <h2>Lorem Ipsum</h2>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+
+        </section>
+
+    </section>
+
+
+
+      <!--GUIDES-->
+
+    <section class="flexbox-to">
+            
+        <section class="headingbox">
+            <h1> <span id="studenter">studenter</span> 
+                <span id="guides"> guides</span>
+            </h1>
+        </section>
+
+
+
+        <!--Artiklerne (cardscontainer)-->
+
+        <section class="cardscontainer">
+
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="#" alt="#">
+                    <h1>Sådan sparer du penge på mad, mens du er på SU</h1>
+                    <hr>
+                    <h2>Lorem Ipsum</h2>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="#" alt="#">
+                    <h1>Spisesteder for under 100 kr i Århus C</h1>
+                    <hr>
+                    <h2>Lorem Ipsum</h2>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="#" alt="#">
+                    <h1>3 simple tricks til at få venner i din klasse</h1>
+                    <hr>
+                    <h2>Lorem Ipsum</h2>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+
+        </section>
+
+    </section>
+
+    <!-- Vælg by -->
+
+    <section class="flexbox-tre">
+            
+        <section class="headingbox">
+            <h1> 
+                <span id="vælg">vælg din</span>
+                <span id="by">by</span>
+            </h1>
+            <h2>
+                Vælg din by og find alle de bedste spisesteder til den studievenlige pris
+            </h2>
+
+        <div class="dropdown-to">
+            <button class="dropbtn-anden">vælg by 
+                <i class="fa fa-caret-down"></i>
+            </button>
+
+            <div class="dropdown-content-anden">
+                <a href="#">Aarhus</a>
+                <a href="#">København</a>
+                <a href="#">Odense</a>
+                <a href="#">Ålborg</a>
+            </div>
+        </div>
+
+        </section>
+
+
+        </section>
+
+    
+
+</main>
+
+
+<footer>
+    <section class="footerflexbox">
+
+        <div class="sekt-1">
+            <img class="logo-footer" src="../Online Magasin/logokopier.png" alt="logo">
+        </div>
+
+        <div class="sekt-2">
+            <h1>Tilmeld dig vores nyhedsbrev</h1>
+            <form>
+                <input type="text" placeholder="Indtast din e-mail her">
+                <br>
+                <button type="submit">TILMELD</button>
+            </form>
+        </div>
+        
+        <div class="sekt-3">
+            <h1>Følg os her</h1>
+
+            <div class="socialemedier">
+                <ion-icon name="logo-facebook"></ion-icon></a>
+                <ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+        </div>
+
+    </section>
+</footer>
+
+</body>
+    
+</html>
