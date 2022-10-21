@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.footerflexbox {
+    background-color: white;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    padding: 150px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: auto;
+    height: 200px;
+    top: 100%;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    
+    border-top: 5px solid rgba(179, 170, 8, 0.78);
+}
+
+.logo-footer {
+    width: 150px;
+    height: 75px;
+    margin-bottom: 100px;
+}
+
+.footerflexbox div {
+    text-align: center;
+}
+
+.footerflexbox div h1 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+form button {
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    background: transparent;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.socialemedier{
+    font-size: 45px;
+    padding-bottom: 70px;
+    cursor: pointer;
+}
+
