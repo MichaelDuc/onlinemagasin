@@ -7,9 +7,9 @@
     <title>Online Magasin</title>
 
 <!--Stylesheets-->
-    <link rel="stylesheet" href="headerstyle.css">
-    <link rel="stylesheet" href="mainbody.css">
-    <link rel="stylesheet" href="footerstyle.css">
+   <link rel="stylesheet" href="mainbody.css">
+   <link rel="stylesheet" href="footerstyle.css">
+   <link rel="stylesheet" href="headerstyle.css">
 <!--Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,13 +29,13 @@
 
     <header>  
             <a href="index.html">
-            <img class="logo" src="../Online Magasin/logokopier.png" alt="logo">
+            <img class="logo" src="images/logokopier.png" alt="logo">
             </a>
-
+    <div class="container">
         <nav class="navbar">
             <a href="#">Forside</a>
-            <a href="#" class="nyheder">nyheder</a>
-            <a href="#">guide</a>
+            <a href="#nyeste" class="nyheder">nyheder</a>
+            <a href="#guides">guides</a>
             
             <div class="dropdown">
 
@@ -53,9 +53,10 @@
 
             <a href="#">om</a>
         </nav>
+    </div>
     </header>
 
-    <main class="frontpage">
+    <section class="frontpage">
 
         <!--Forside billede på tekst-->
         <section class="back-image"></section>
@@ -66,17 +67,18 @@
             <h1><span id="spanfoerste">STUDENT</span> <span id="spananden">GUIDE</span></h1>
             
             <h3 id="tredjetekst">
-                Vi vil hjælpe dig med at udforske og nyde livet <br> bag bøgerne og lektierne. 
+                den bedste spiseguide til den sultende studerende
             </h3>
         </div>
-
+    </section>
+        <hr>
+<main>
         <!--Nyeste historier-->
 
     <section class="flexbox-et">
             
                 <section class="headingbox">
-                    <h1> <span id="nyeste">Nyeste </span> 
-                        <span id="historier">historier</span>
+                    <h1> <span id="nyeste">nyeste historier </span> 
                     </h1>
                 </section>
 
@@ -84,51 +86,97 @@
 
         <!--Artiklerne (cardscontainer)-->
 
-        <section class="cardscontainer">
+        <section class="cardscontainer-et">
 
             <div>
-                <a href="#indsætførsteartikel">
-                    <img src="#" alt="#">
-                    <h1>Hvad skal man vælge? Her er månedens favorit</h1>
+                <a href="kebab.html">
+                    <img src="../Online Magasin/images/hasle2.jpg" alt="kebab">
+                    <h2>MÅNEDENS FAVORIT</h2>
                     <hr>
-                    <h2>Lorem Ipsum</h2>
+                    <h1>Kebab i Hasle vundet som Oktober favorit</h1>
+                    <hr>
                     <h3>Skrevet af Michael Duc</h3>
                 </a>
             </div>
 
-            <div>
-                <a href="#indsætførsteartikel">
-                    <img src="#" alt="#">
-                    <h1>Dagen derpå: Den perfekte guide til tømmermænd</h1>
+            <div id="cafebillede">
+                <a href="artikler.html">
+                    <img src="../Online Magasin/images/cafe.jpg" alt="cafe">
+                    <h2>NYHED</h2>
                     <hr>
-                    <h2>Lorem Ipsum</h2>
+                    <h1>Nyåbnet studievenlig café i hjertet af Århus</h1>
+                    <hr>
                     <h3>Skrevet af Michael Duc</h3>
                 </a>
             </div>
            
             <div>
-                <a href="#indsætførsteartikel">
-                    <img src="#" alt="#">
-                    <h1>Her er alle 10/10 rated spisesteder indtil videre</h1>
+                <a href="sandwich.html">
+                    <img src="../Online Magasin/images/burgermelon.jpg" alt="burger">
+                    <h2>VEGETAR</h2>
                     <hr>
-                    <h2>Lorem Ipsum</h2>
+                    <h1>En vegetar burger du absolut skal prøve!</h1>
+                    <hr>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+            
+        </section>
+
+        <section class="whitespace"></section>
+
+            <section class="cardscontainer-et">
+
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="../Online Magasin/images/burger.jpg" alt="">
+                    <h2>NYHED</h2>
+                    <hr>
+                    <h1>Legendarisk burgerbar er perfekt til studerende</h1>
+                    <hr>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+
+            <div id="cafebillede">
+                <a href="#indsætførsteartikel">
+                    <img src="../Online Magasin/images/sushi.jpg" alt="cafe">
+                    <h2>NYHED</h2>
+                    <hr>
+                    <h1>5 udvalgte sushirestauranter som er SU-venlig</h1>
+                    <hr>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+        
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="../Online Magasin/images/banhmi,jp.jpg" alt="sandwich">
+                    <h2>MÅNEDENS FAVORIT</h2>
+                    <hr>
+                    <h1>Vinderen af September favorit er Banh Mi Bandits</h1>
+                    <hr>
                     <h3>Skrevet af Michael Duc</h3>
                 </a>
             </div>
 
         </section>
 
-    </section>
+        <section class="se-mere">
+            <h1>
+                læs mere
+            </h1>
+        </section>
 
-
+<hr>
 
       <!--GUIDES-->
-
+<section>
     <section class="flexbox-to">
             
         <section class="headingbox">
-            <h1> <span id="studenter">studenter</span> 
-                <span id="guides"> guides</span>
+            <h1> 
+                <span id="guides"> STUDENTER GUIDES</span>
             </h1>
         </section>
 
@@ -136,44 +184,93 @@
 
         <!--Artiklerne (cardscontainer)-->
 
-        <section class="cardscontainer">
+        <section class="cardscontainer-to">
 
             <div>
                 <a href="#indsætførsteartikel">
-                    <img src="#" alt="#">
+                    <img src="../Online Magasin/images/penge.jpg" alt="penge">
+                    <h2>SPAR PENGE</h2>
+                    <hr>
                     <h1>Sådan sparer du penge på mad, mens du er på SU</h1>
                     <hr>
-                    <h2>Lorem Ipsum</h2>
                     <h3>Skrevet af Michael Duc</h3>
                 </a>
             </div>
 
             <div>
                 <a href="#indsætførsteartikel">
-                    <img src="#" alt="#">
-                    <h1>Spisesteder for under 100 kr i Århus C</h1>
+                    <img src="../Online Magasin/images/burger.jpeg" alt="burger">
+                    <h2>UNDER 50 KR</h2>
                     <hr>
-                    <h2>Lorem Ipsum</h2>
+                    <h1>Udvalgte spisesteder for under 50 kr i Århus C</h1>
+                    <hr>
                     <h3>Skrevet af Michael Duc</h3>
                 </a>
             </div>
 
             <div>
                 <a href="#indsætførsteartikel">
-                    <img src="#" alt="#">
-                    <h1>3 simple tricks til at få venner i din klasse</h1>
+                    <img src="../Online Magasin/images/hangover.jpg" alt="hangover">
+                    <h2>GUIDES</h2>
                     <hr>
-                    <h2>Lorem Ipsum</h2>
+                    <h1>Dagen derpå: Den perfekte guide til tømmermænd</h1>
+                    <hr>
                     <h3>Skrevet af Michael Duc</h3>
                 </a>
             </div>
 
         </section>
 
+      <section class="whitespace"></section>
+
+        <section class="cardscontainer-to">
+
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="../Online Magasin/images/wok.jpg" alt="penge">
+                    <h2>SPAR PENGE</h2>
+                    <hr>
+                    <h1>Kom i den sunde livsstil og spar 25% som studerende</h1>
+                    <hr>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="../Online Magasin/images/kaffebar.jpg" alt="burger">
+                    <h2>KØBENHAVN</h2>
+                    <hr>
+                    <h1>De bedste kaffebarer i København</h1>
+                    <hr>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+
+            <div>
+                <a href="#indsætførsteartikel">
+                    <img src="../Online Magasin/images/mundhaeld.jpg" alt="hangover">
+                    <h2>GUIDES</h2>
+                    <hr>
+                    <h1>Her serverer de 20 forskellige varianter af øl</h1>
+                    <hr>
+                    <h3>Skrevet af Michael Duc</h3>
+                </a>
+            </div>
+
+    </section>
+    
+    <section class="se-mere">
+        <h1>
+            læs mere
+        </h1>
     </section>
 
-    <!-- Vælg by -->
+    
+<hr>
 
+    <!-- Vælg by -->
+</section>
     <section class="flexbox-tre">
             
         <section class="headingbox">
@@ -182,11 +279,11 @@
                 <span id="by">by</span>
             </h1>
             <h2>
-                Vælg din by og find alle de bedste spisesteder til den studievenlige pris
+                Vælg din by og find de bedste udvalgte spisesteder til den studievenlige pris
             </h2>
 
         <div class="dropdown-to">
-            <button class="dropbtn-anden">vælg by 
+            <button class="dropbtn-anden">vælg din by 
                 <i class="fa fa-caret-down"></i>
             </button>
 
@@ -200,10 +297,9 @@
 
         </section>
 
-
         </section>
 
-    
+        <hr>
 
 </main>
 
