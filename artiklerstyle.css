@@ -130,3 +130,17 @@ p{
     width: 100%;
     background-size: cover;
 }
+
+.melondesk {
+    background-image: url(images/melonedesk.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.burgermelon {
+    background-image: url(images/burgerburger.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
