@@ -124,7 +124,7 @@ main {
     width: 300px;
     text-align: center;
     background-color: rgb(229, 222, 13);
-    border-radius: 40px;
+    border-radius: 15px;
 }
 
 .cardscontainer-et div hr {
@@ -215,6 +215,43 @@ hr {
     border-radius: 15px;
   }
 
+ /*Billeder*/
+
+ .card-image {
+    background-color: red;
+    height: 250px;
+  
+ }
+
+ .kebab {
+    background-image: url(images/hasle2.jpg);
+    background-size: cover;
+ }
+
+ .cafe {
+    background-image: url(images/cafe.jpg);
+    background-size: cover;
+ }
+
+ .burger {
+    background-image: url(images/burgermelon.jpg);
+    background-size: cover;
+ }
+
+.penge {
+    background-image: url(images/penge.jpg);
+    background-size: cover;
+}
+
+ .burger-2 {
+    background-image: url(images/burger.jpeg);
+    background-size: cover;
+ }
+
+ .hangover {
+    background-image: url(images/hangover.jpg);
+    background-size: cover;
+ }
 
   /*Vælg by dropdown knap*/
   .dropdown-to .dropbtn-anden { 
