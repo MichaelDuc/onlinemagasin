@@ -103,15 +103,30 @@ p{
     background-color: red;
 
     /*Centrere billedet*/
-    height: 400px;
+    height: 500px;
     width: 70%;
     margin: auto;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
 .image-container img {
     /*Centrere billedet*/
     width: 100%;
+}
+
+/*Billeder*/
+
+.kødto {
+    background-image: url(images/kød2.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.rulleto {
+    background-image: url(images/rulle2.png);
+    width: 100%;
+    background-size: cover;
 }
