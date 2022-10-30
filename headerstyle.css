@@ -33,11 +33,13 @@ header {
 /*Logo*/
 
 .logo {
+    background-image: url(images/logokopier.png);
+    background-size: cover;
+    min-height: 50px;
     position: absolute;
     top: 25px;
     left: 100px;
-    width: 125px;
-    height:125px
+    width: 140px;
 }
 
 /*Nav links*/
