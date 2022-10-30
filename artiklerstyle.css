@@ -144,3 +144,17 @@ p{
     background-size: cover;
     background-position: center;
 }
+
+.biksento {
+    background-image: url(images/biks2.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.biksmad {
+    background-image: url(images/biksmad.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
